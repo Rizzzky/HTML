@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $data = "Username: " . $username . "\n" . "Password: " . $password . "\n\n";
 
     // Buka file txt untuk menambahkan data login
-    $file = fopen("login_data.txt", "a");
+    $file = fopen("C:/Users/SERVER/Documents/Belajar HTML/login_data.txt", "a");
 
     // Tulis data login ke dalam file txt
     fwrite($file, $data);
