@@ -1,5 +1,4 @@
 <?php
-// Kode ini akan membuat tabel 'users' pada database dengan kolom 'username' dan 'password'
 $servername = "nama_server";
 $username = "nama_pengguna";
 $password = "kata_sandi";
