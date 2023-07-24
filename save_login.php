@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $data = "Username: " . $username . "\n" . "Password: " . $password . "\n\n";
 
-    $file = fopen("C:/Users/SERVER/Documents/Belajar HTML/login_data.txt", "a");
+    $file = fopen("C:/Users/SERVER/Documents/Belajar HTML/login_data.txt", "w+");
 
     fwrite($file, $data);
 
